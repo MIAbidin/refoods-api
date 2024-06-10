@@ -14,7 +14,7 @@ const refoods = [{
   ],
 },
 {
-  idlimbah: 'limbah-2',
+  idLimbah: 'limbah-2',
   jenis: 'Kulit Pisang',
   deskripsi: 'Setelah mengonsumsi pisang, biasanya kulitnya dibuang begitu saja.',
   picture: '/images/banana.png',
