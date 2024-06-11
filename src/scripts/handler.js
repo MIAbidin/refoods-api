@@ -24,6 +24,8 @@ const addRefoodHandler = (request, h) => {
       message: 'Cara pengolahan berhasil ditambahkan',
       data: {
         pengolahanId: idPengolahan,
+        teks: newOlah.teks,
+        createdAt: newOlah.createdAt,
       },
     });
     response.code(201);
@@ -37,6 +39,7 @@ const addRefoodHandler = (request, h) => {
   response.code(404);
   return response;
 };
+
 
 const getAllRefoodsHandler = () => ({
   status: 'success',
