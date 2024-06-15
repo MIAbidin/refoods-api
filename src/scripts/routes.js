@@ -4,8 +4,6 @@ const {
   getRefoodByIdHandler,
   editRefoodHandler,
   deleteRefoodHandler,
-  loginHandler,
-  registerHandler,
 } = require('./handler');
 
 const routes = [
@@ -34,16 +32,6 @@ const routes = [
     path: '/refood/{idLimbah}/{idPengolahan}',
     handler: deleteRefoodHandler,
   },
-  {
-    method: 'POST',
-    path: '/login',
-    handler: loginHandler,
-  },
-  {
-    method: 'POST',
-    path: '/register',
-    handler: registerHandler,
-  }
 ];
 
 module.exports = routes;
