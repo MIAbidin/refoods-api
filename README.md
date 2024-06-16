@@ -1,6 +1,4 @@
-sesuai dengna template ini
-
-# Rasa-in-Backend
+# ReFodd API
 
 ## Getting Started
 
@@ -33,7 +31,7 @@ npm run start
 
 | Endpoint | Usage | Method | Description |
 |----------|-------|---------|----------|
-| `/refood/{idLimbah}` | Add Refood Processing | - |  Add a new refood processing method for a specific waste ID. |
+| `/refood/{idLimbah}` | Add Refood Processing | POST |  Add a new refood processing method for a specific waste ID. |
 | `/refood` | Get All Refoods | GET |  Retrieve all refood processing data. |
 | `/refood/{idLimbah}` | Get Refood by ID Limbah | GET |  Retrieve refood processing data by waste ID. |
 | `/refood/{idLimbah}/{idPengolahan}` | Edit Refood Processing | PUT |  Update refood processing method by waste ID and processing ID. |
