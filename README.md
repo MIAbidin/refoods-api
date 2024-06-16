@@ -1,4 +1,4 @@
-# ReFodd API
+# ReFod API
 
 ## Getting Started
 
@@ -27,7 +27,7 @@ npm run start
 
 ## How To Use It
 
-**Base Url** :  `https://54.254.164.76:5000`
+**Base Url** :  `http://54.254.164.76:5000`
 
 | Endpoint | Usage | Method | Description |
 |----------|-------|---------|----------|
