@@ -1,4 +1,4 @@
-# ReFod API
+# ReFood API
 
 ## Getting Started
 
@@ -13,7 +13,7 @@ git clone https://github.com/MIAbidin/refoods-api.git
 Then, install dependencies and fetch data to your local machine. **Note that we use NPM**
 
 ```bash
-cd Refood-api
+cd refoods-api
 npm install
 ```
 
@@ -36,3 +36,10 @@ npm run start
 | `/refood/{idLimbah}` | Get Refood by ID Limbah | GET |  Retrieve refood processing data by waste ID. |
 | `/refood/{idLimbah}/{idPengolahan}` | Edit Refood Processing | PUT |  Update refood processing method by waste ID and processing ID. |
 | `/refood/{idLimbah}/{idPengolahan}` | Delete Refood Processing | DELETE |  Delete refood processing method by waste ID and processing ID.  |
+
+
+
+---
+
+## Deployment
+https://refood-api.vercel.app/
